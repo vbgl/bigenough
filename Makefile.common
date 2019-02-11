@@ -59,7 +59,7 @@ this-clean:: __always__
 # Install target -----------------------------------------------------
 .PHONY: install
 
-install: __always__ Makefile.coq
+install: Makefile.coq
 	$(COQMAKE) install
 # counting lines of Coq code -----------------------------------------
 .PHONY: count
